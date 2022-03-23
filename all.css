@@ -1,0 +1,88 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("back1.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 590px;
+}
+div.register>input:hover{
+	padding:10px;
+	box-shadow:5px 10px 8px red;
+	border-radius: 25px;
+}
+
+.register{
+    padding: 30px;
+    display:grid;
+    width: 400px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+	box-shadow:5px 8px 8px goldenrod;
+	border-radius: 25px;
+}
+.register > label{
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:30px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.register > input {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin-left:30px;
+    margin-right: 20px;
+    outline: none;
+    padding:10px;
+}
+.register > textarea{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin-left:30px;
+    margin-right: 20px;
+    outline: none;
+}
+.register > select{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin-left:30px;
+    margin-right: 20px;
+}
+.register > button{
+    margin-top: 10px;
+    height: 30px;
+    width: 30%;
+    margin-left: 140px;
+    border-radius: 20px;
+    border: none;
+    background-color: chocolate;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.register>button:hover{
+	box-shadow:5px 8px 8px greenyellow;
+	border-radius: 25px;
+}
+.register > p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.register > p > a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.contact > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
